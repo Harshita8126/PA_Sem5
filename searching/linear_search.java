@@ -1,3 +1,6 @@
+//Finding an element using Linear Search 
+//time compl=O(n) as we traverse the whole array for the worst case 
+//In this case simply the index of the element is returned and if not then -1
 class linear_search{
 static int l_search(int[] arr,int target){
     for(int i=0;i<arr.length;i++){
