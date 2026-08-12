@@ -1,0 +1,26 @@
+package practice;
+
+import java.util.Scanner;
+
+public class ques3 {
+    public static void num(int n){
+          if(n%2==0){
+            System.out.println("Even");
+        }else{
+            System.out.println("Odd");
+        }
+        if(n>0){
+            System.out.println("Positive");
+        }else if(n<0){
+            System.out.println("Negative");
+        } else{
+            System.out.println("Zero");
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int n = sc.nextInt();
+        num(n);
+        sc.close();
+    }
+}
