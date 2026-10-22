@@ -12,7 +12,6 @@ public class lc_3_longestSubstring {
             while(hs.contains(ch)){
                 hs.remove(s.charAt(left));
                 left++;
-
             }
             hs.add(ch);
             maxlen=Math.max(maxlen,right-left+1);

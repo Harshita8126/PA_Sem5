@@ -11,3 +11,4 @@ public class lc_1480_runningSum {
     
     }
 }
+

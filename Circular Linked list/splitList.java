@@ -25,7 +25,7 @@ public class splitList {
         Node head2=slow.next;
         slow.next=head;
         fast.next=head2;
-
+ 
     }
     
 }

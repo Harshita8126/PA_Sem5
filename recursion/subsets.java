@@ -7,9 +7,11 @@ public class subsets {
             ans.add(new ArrayList<>(current));
             return;
         }
+
         current.add(nums[index]);
         solve(nums,index+1,current);
         current.remove(current.size()-1);
+        
         solve(nums,index+1,current);
     }
     public static void main(String[] args) {
