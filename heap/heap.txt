@@ -1,0 +1,27 @@
+Heap is a complete binary tree that follows a special property called the heap property.
+1 . binary tree-> a tree in which evry node has at most 2 child
+2.  complete binary tree->
+# a binary tree in which every level is completely filled except possible the last level.
+#the last level is filled from left to right .
+
+Heap follows these 2 conditions
+#It must be a complete binary tree .
+#It must follow heap property.
+
+There are 2types of heap 
+1.Max heap ->The parent node is always greater than or equal to it's childs
+            50->30->40->10->20->35->25
+2.Min heap ->parent node is always smaller than or equal to it's childs.
+
+Difference in max vs min 
+Feature      Max Heap                   Min heap
+Root         Max                        Min 
+Parent       Greater than child         Smaller than child
+Used for     Largest element            Smallest element 
+Java         priority queue rev order   priority queue
+
+Represent array using heap
+
+int[] heap=[50,30,40,10,20,35,25]
+
+
