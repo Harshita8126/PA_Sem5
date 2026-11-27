@@ -1,0 +1,10 @@
+4 steps
+1.state = dp[i] kya represent krega 
+2.transition = (jo curr ans h vo prev state se kese nikal rha h) 
+3.base case = starting values kya hongi(in case of fib 0,1)
+4.ans = ans kis state me milega
+
+approaches
+Memoization                                               Tabulation
+top to bottom                                               bottom to top
+cache ,recursion                                            iterative approach,storage dp array
